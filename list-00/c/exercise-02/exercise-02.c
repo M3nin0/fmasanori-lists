@@ -15,7 +15,7 @@ int main(){
 	printf("Insira a quantidade de segundos: ");
 	scanf("%f", &s);
 
-	total = (d * 24 * 60 * 60 )  + (h * 60 * 60 ) + ( m * 60 * 60 ) + s;
+	total = (d * 24 * 60 * 60 )  + (h * 60 * 60 ) + ( m * 60) + s;
 
 	printf("todos estes valores em segundos equivalem a: %.2f segundos\n", total);
 
